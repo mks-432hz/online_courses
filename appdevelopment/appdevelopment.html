@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Development Free Courses | Vidya</title>
+</head>
+<style>
+  body {
+    font-family: 'lato', sans-serif;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+
+    small {
+      font-size: 0.5em;
+    }
+  }
+
+  .responsive-table {
+    li {
+      border-radius: 3px;
+      padding: 25px 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+      margin-left: auto;
+      margin-right: 40px;
+    }
+
+    .table-header {
+      background-color: #FF6600;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .table-row {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .col-1 {
+      flex-basis: 10%;
+    }
+
+    .col-2 {
+      flex-basis: 40%;
+    }
+
+    .col-3 {
+      flex-basis: 25%;
+    }
+
+    .col-4 {
+      flex-basis: 25%;
+    }
+
+    @media all and (max-width: 767px) {
+      .table-header {
+        display: none;
+      }
+
+      li {
+        display: block;
+      }
+
+      .col {
+
+        flex-basis: 100%;
+
+      }
+
+      .col {
+        display: flex;
+        padding: 10px 0;
+
+        &:before {
+          color: darkorange;
+          padding-right: 10px;
+          content: attr(data-label);
+          flex-basis: 50%;
+          text-align: right;
+        }
+      }
+    }
+  }
+</style>
+
+<body>
+  <div class="container">
+    <h2>App Development<small>Free</small></h2>
+    <ul class="responsive-table">
+      <li class="table-header">
+        <div class="col col-1">Ranking</div>
+        <div class="col col-2">Platform</div>
+        <div class="col col-3">Link</div>
+        <div class="col col-4">Duration</d>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.3</div>
+        <div class="col col-2" data-label="Platform">Udemy</div>
+        <div class="col col-3" data-label="Link"><a
+            href="https://www.udemy.com/course/learn-android-application-development-y/">Click Here</a></div>
+        <div class="col col-4" data-label="Duration">27 hours</div>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.6</div>
+        <div class="col col-2" data-label="Platform">Udemy</div>
+        <div class="col col-3" data-label="Link"><a
+            href="https://www.udemy.com/course/android-app-development-with-parse-and-android-studio-ide/">Click
+            Here</a></div>
+        <div class="col col-4" data-label="Duration">4 hours</div>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.5</div>
+        <div class="col col-2" data-label="Platform">Udemy(IOS)</div>
+        <div class="col col-3" data-label="Link"><a
+            href="https://www.udemy.com/course/the-complete-ios-10-developer-course/">Click Here</a></div>
+        <div class="col col-4" data-label="Duration">49 hours</div>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.6</div>
+        <div class="col col-2" data-label="Platform">Udemy</div>
+        <div class="col col-3" data-label="Link"><a href="https://www.udemy.com/course/android-tutorial/">Click Here</a>
+        </div>
+        <div class="col col-4" data-label="Duration">15 hours</div>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.2</div>
+        <div class="col col-2" data-label="Platform">Udemy</div>
+        <div class="col col-3" data-label="Link"><a
+            href="https://www.udemy.com/course/become-an-android-developer-from-scratch/">Click Here</a></div>
+        <div class="col col-4" data-label="Duration">11 hours</div>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.3</div>
+        <div class="col col-2" data-label="Platform">Udemy(IOS)</div>
+        <div class="col col-3" data-label="Link"><a
+            href="https://www.udemy.com/course/the-art-of-real-ios-programming/">Click Here</a></div>
+        <div class="col col-4" data-label="Duration">8 hours</div>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.7</div>
+        <div class="col col-2" data-label="Platform">Udemy(IOS)</div>
+        <div class="col col-3" data-label="Link"><a
+            href="https://www.udemy.com/course/ios-13-app-development-bootcamp/?couponCode=LEADERSALE24A">Click Here</a>
+        </div>
+        <div class="col col-4" data-label="Duration">60 hours</div>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.7</div>
+        <div class="col col-2" data-label="Platform">Udemy(IOS)</div>
+        <div class="col col-3" data-label="Link"><a
+            href="https://www.udemy.com/course/the-complete-ios-developer-course-with-swift/?couponCode=LEADERSALE24A">Click
+            Here</a></div>
+        <div class="col col-4" data-label="Duration">51 hours</div>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

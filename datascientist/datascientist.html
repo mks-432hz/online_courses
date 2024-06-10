@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Scientist Free Courses | Vidya</title>
+</head>
+<style>
+  body {
+    font-family: 'lato', sans-serif;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+
+    small {
+      font-size: 0.5em;
+    }
+  }
+
+  .responsive-table {
+    li {
+      border-radius: 3px;
+      padding: 25px 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+      margin-left: auto;
+      margin-right: 40px;
+    }
+
+    .table-header {
+      background-color: #FF6600;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .table-row {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .col-1 {
+      flex-basis: 10%;
+    }
+
+    .col-2 {
+      flex-basis: 40%;
+    }
+
+    .col-3 {
+      flex-basis: 25%;
+    }
+
+    .col-4 {
+      flex-basis: 25%;
+    }
+
+    @media all and (max-width: 767px) {
+      .table-header {
+        display: none;
+      }
+
+      li {
+        display: block;
+      }
+
+      .col {
+
+        flex-basis: 100%;
+
+      }
+
+      .col {
+        display: flex;
+        padding: 10px 0;
+
+        &:before {
+          color: darkorange;
+          padding-right: 10px;
+          content: attr(data-label);
+          flex-basis: 50%;
+          text-align: right;
+        }
+      }
+    }
+  }
+</style>
+
+<body>
+  <div class="container">
+    <h2>Data Scientist <small>Free</small></h2>
+    <ul class="responsive-table">
+      <li class="table-header">
+        <div class="col col-1">Ranking</div>
+        <div class="col col-2">Platform</div>
+        <div class="col col-3">Link</div>
+        <div class="col col-4">Duration</d>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.6</div>
+        <div class="col col-2" data-label="Platform">IBM</div>
+        <div class="col col-3" data-label="Link"><a
+            href="https://www.coursera.org/learn/python-for-applied-data-science-ai">Click Here</a></div>
+        <div class="col col-4" data-label="Duration">2 hours</div>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.5</div>
+        <div class="col col-2" data-label="Platform">Great Learning</div>
+        <div class="col col-3" data-label="Link"><a
+            href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-data-science">Click
+            Here</a></div>
+        <div class="col col-4" data-label="Duration">1 hour</div>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.4</div>
+        <div class="col col-2" data-label="Platform">Udemy</div>
+        <div class="col col-3" data-label="Link"><a
+            href="https://www.udemy.com/course/introduction-to-data-science-using-python/">Click Here</a></div>
+        <div class="col col-4" data-label="Duration">3 hours</div>
+      </li>
+      <li class="table-row">
+        <div class="col col-1" data-label="Ranking">4.0</div>
+        <div class="col col-2" data-label="Platform">Udemy</div>
+        <div class="col col-3" data-label="Link"><a
+            href="https://www.udemy.com/course/data-science-machine-learning-data-analysis-python-r/">Click Here</a>
+        </div>
+        <div class="col col-4" data-label="Duration">9 hours</div>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structure Free Courses | Vidya</title>
+</head>
+<style>
+    body {
+  font-family: 'lato', sans-serif;
+}
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+  small {
+    font-size: 0.5em;
+  }
+}
+
+.responsive-table {
+  li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: 40px;
+  }
+  .table-header {
+    background-color: #FF6600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+  }
+  .col-1 {
+    flex-basis: 10%;
+  }
+  .col-2 {
+    flex-basis: 40%;
+  }
+  .col-3 {
+    flex-basis: 25%;
+  }
+  .col-4 {
+    flex-basis: 25%;
+  }
+  
+  @media all and (max-width: 767px) {
+    .table-header {
+      display: none;
+    }
+    li {
+      display: block;
+    }
+    .col {
+      
+      flex-basis: 100%;
+      
+    }
+    .col {
+      display: flex;
+      padding: 10px 0;
+      &:before {
+        color: darkorange;
+        padding-right: 10px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right;
+      }
+    }
+  }
+}
+</style>
+<body>
+    <div class="container">
+        <h2>Data Structure Courses <small>Free</small></h2>
+        <ul class="responsive-table">
+          <li class="table-header">
+            <div class="col col-1">Views</div>
+            <div class="col col-2">Platform</div>
+            <div class="col col-3">Link</div>
+            <div class="col col-4">Videos</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1" data-label="Views">YT-19M</div>
+            <div class="col col-2" data-label="Platform">Code with Harry [C]</div>
+            <div class="col col-3" data-label="Link"><a href="https://youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi&si=i6Uz9V9IPOdJ484k">Click Here</a></div>
+            <div class="col col-4" data-label="No. of videos">92 videos</div>
+        </li>
+        <li class="table-row">
+            <div class="col col-1" data-label="Views">YT-20M</div>
+            <div class="col col-2" data-label="Platform">Apna College [java]</div>
+            <div class="col col-3" data-label="Link"><a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop">Click Here</a></div>
+            <div class="col col-4" data-label="No. of videos">39 videos</div>
+        </li>
+        <li class="table-row">
+            <div class="col col-1" data-label="Views">YT-2M</div>
+            <div class="col col-2" data-label="Platform">College wallah [C++]</div>
+            <div class="col col-3" data-label="Link"><a href="https://www.youtube.com/playlist?list=PLxgZQoSe9cg0df_GxVjz3DD_Gck5tMXAd">Click Here</a></div>
+            <div class="col col-4" data-label="No. of videos">68 videos</div>
+        </li>
+        <li class="table-row">
+            <div class="col col-1" data-label="Views">YT-2.3M</div>
+            <div class="col col-2" data-label="Platform">codeBasics [python]</div>
+            <div class="col col-3" data-label="Link"><a href="https://www.youtube.com/playlist?list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12">Click Here</a></div>
+            <div class="col col-4" data-label="No. of videos">20 videos</div>
+        </li>
+        <li class="table-row">
+            <div class="col col-1" data-label="Views">YT-608k</div>
+            <div class="col col-2" data-label="Platform">code Step By Step [javaScript]</div>
+            <div class="col col-3" data-label="Link"><a href="https://youtube.com/playlist?list=PL8p2I9GklV47TMMnPzqnkCtSOS3ebr4O7&si=EQp_F-IxY7K-lEAI">Click Here</a></div>
+            <div class="col col-4" data-label="No. of videos">58 videos</div>
+        </li>
+        
+        
+</body>
+</html>
